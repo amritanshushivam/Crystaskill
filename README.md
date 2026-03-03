@@ -26,20 +26,26 @@ Make sure these are installed on your system **before** starting:
 ### Windows — Double-click to run:
 
 ```
-start.bat        ← Starts backend + frontend + opens browser
-stop.bat         ← Stops all servers
+1️⃣  install.bat     ← First time: installs all dependencies + creates .env
+2️⃣  start.bat       ← Starts backend + frontend + opens browser
+    stop.bat        ← Stops all servers
 ```
 
-That's it! The script will:
-1. ✅ Kill any leftover processes
-2. ✅ Check if Node.js is installed
-3. ✅ Install `node_modules` if missing (first time only)
-4. ✅ Check `.env` file exists
-5. ✅ Start Backend on **http://localhost:5000**
-6. ✅ Start Frontend on **http://localhost:9002**
-7. ✅ Open your browser automatically
+### `install.bat` will:
+1. ✅ Check Node.js & npm are installed
+2. ✅ Check MongoDB is available
+3. ✅ Create `.env` from `.env.example` (if missing)
+4. ✅ Install **frontend** npm packages
+5. ✅ Install **backend** npm packages
 
-> Press any key in the script window to **stop all servers** gracefully.
+### `start.bat` will:
+1. ✅ Kill any leftover processes
+2. ✅ Verify dependencies & `.env` exist
+3. ✅ Start Backend on **http://localhost:5000**
+4. ✅ Start Frontend on **http://localhost:9002**
+5. ✅ Open your browser automatically
+
+> Press any key in the start script window to **stop all servers** gracefully.
 
 ---
 

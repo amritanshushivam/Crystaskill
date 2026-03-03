@@ -32,32 +32,21 @@ if %errorlevel% neq 0 (
 for /f "tokens=*" %%v in ('node -v') do echo  [✓] Node.js %%v
 
 :: ──────────────────────────────────────────────
-:: Step 2 — Check if node_modules exists
+:: Step 2 — Check dependencies + .env
 :: ──────────────────────────────────────────────
 if not exist "%~dp0node_modules\" (
     echo.
-    echo  [1/4] Installing dependencies (first time)...
-    echo        This may take 2-3 minutes...
-    cd /d "%~dp0"
-    npm install
-    if %errorlevel% neq 0 (
-        echo  [ERROR] npm install failed!
-        pause
-        exit /b 1
-    )
-    echo        Done.
-) else (
-    echo  [✓] Dependencies already installed.
+    echo  [ERROR] Dependencies not installed!
+    echo          Run install.bat first.
+    pause
+    exit /b 1
 )
+echo  [✓] Dependencies installed.
 
-:: ──────────────────────────────────────────────
-:: Step 3 — Check if .env exists
-:: ──────────────────────────────────────────────
 if not exist "%~dp0.env" (
     echo.
     echo  [ERROR] .env file not found!
-    echo          Copy .env.example to .env and fill in your values.
-    echo          See README.md for details.
+    echo          Run install.bat first, or copy .env.example to .env
     pause
     exit /b 1
 )
