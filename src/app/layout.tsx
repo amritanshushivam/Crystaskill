@@ -31,6 +31,17 @@ export const metadata: Metadata = {
   description: 'CrystaSkill offers industry-led training in CSE/IT, ECE/EC & Management. 50,000+ students trained with hands-on projects, expert mentorship and placement support.',
   keywords: ['CrystaSkill', 'training', 'professional education', 'CSE IT', 'ECE EC', 'management', 'placement', 'internship'],
   robots: 'index, follow',
+  icons: {
+    icon: '/crystaskills.jpeg',
+    shortcut: '/crystaskills.jpeg',
+    apple: '/crystaskills.jpeg',
+  },
+  openGraph: {
+    title: 'CrystaSkill — Professional Training & Skill Development',
+    description: 'CrystaSkill offers industry-led training in CSE/IT, ECE/EC & Management.',
+    images: ['/crystaskills.jpeg'],
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
