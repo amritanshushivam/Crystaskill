@@ -34,6 +34,7 @@ const allowedOrigins = [
   'http://localhost:9002',
   'http://localhost:3000',
   ...(process.env.PRODUCTION_URL ? [process.env.PRODUCTION_URL] : []),
+  'https://crystaskill-backend.onrender.com', // Render backend URL
 ];
 app.use(cors({
   origin: function (origin, callback) {
