@@ -2,6 +2,7 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
+  // output: 'standalone', // Not needed on Vercel
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -17,6 +18,7 @@ const nextConfig: NextConfig = {
   },
   // experimental optimizeCss removed — unstable in production builds
   images: {
+    unoptimized: true, // sharp not available on shared hosting
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200],
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
