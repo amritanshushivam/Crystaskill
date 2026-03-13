@@ -7,12 +7,12 @@ const testimonials = [
   {
     name: "Abhishek",
     role: "HR Specialist",
-    company: "Wipro",
+    company: "FMCG",
     degree: "MBA",
-    content: "CrystaSkill's HR Management program gave me the perfect foundation for my role at Wipro. The training on recruitment, employee relations, and corporate processes was incredibly practical. The mentors shared real-world scenarios that I use daily in my job!",
+    content: "CrystaSkill's HR Management program gave me the perfect foundation for my role in FMCG sector. The training on recruitment, employee relations, and corporate processes was incredibly practical. The mentors shared real-world scenarios that I use daily in my job!",
     avatar: "/student-testimonials/abhishek Wipro hr.jpeg",
     rating: 5,
-    highlight: "Placed at Wipro — HR Team"
+    highlight: "Placed in FMCG — HR Team"
   },
   {
     name: "Bharat Bhushan",
