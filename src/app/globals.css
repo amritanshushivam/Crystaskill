@@ -25,6 +25,28 @@
     --gradient-start: 220 60% 98%;
     --gradient-end: 210 40% 96%;
   }
+
+  .dark {
+    --background: 220 15% 10%;
+    --foreground: 210 20% 98%;
+    --card: 220 20% 15%;
+    --card-foreground: 210 20% 98%;
+    --popover: 220 20% 15%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 210 20% 98%;
+    --primary-foreground: 220 25% 10%;
+    --secondary: 220 20% 25%;
+    --secondary-foreground: 210 20% 98%;
+    --muted: 220 20% 25%;
+    --muted-foreground: 215 10% 50%;
+    --accent: 32 95% 52%;
+    --accent-foreground: 220 25% 10%;
+    --border: 220 20% 25%;
+    --input: 220 20% 25%;
+    --ring: 210 20% 98%;
+    --gradient-start: 220 15% 15%;
+    --gradient-end: 220 15% 12%;
+  }
 }
 
 @layer base {
