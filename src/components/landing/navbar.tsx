@@ -5,7 +5,6 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu, ChevronDown, Rocket, ShieldCheck, Users, Briefcase, GraduationCap, Globe, Laptop, ArrowUpRight, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
 import { PlaceHolderImages } from "@/lib/placeholder-images"
 import { ContactFormDialog } from "@/components/contact-form-dialog"
 
@@ -148,7 +147,6 @@ export function Navbar() {
           </div>
 
           <div className="flex items-center gap-3">
-            <ThemeToggle />
             <Button onClick={() => setContactOpen(true)} className="hidden sm:inline-flex rounded-full h-10 px-7 text-[13px] font-semibold bg-primary hover:bg-primary/90 text-white transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 active:scale-[0.97]">
               Contact Us
             </Button>
