@@ -1,0 +1,52 @@
+{
+  "placeholderImages": [
+    {
+      "id": "brand-logo",
+      "description": "CrystaSkill brand wordmark logo",
+      "imageUrl": "/crystaskills.jpeg",
+      "imageHint": "brand logo"
+    },
+    {
+      "id": "hero-student",
+      "description": "Professional student working on laptop in bright workspace",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdHVkZW50JTIwbGFwdG9wJTIwd29ya3NwYWNlfGVufDB8fHx8MTc3MTk0NzE4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student laptop"
+    },
+    {
+      "id": "course-coding",
+      "description": "Modern software development workspace",
+      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb2RpbmclMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzcxOTI3NjI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coding workspace"
+    },
+    {
+      "id": "course-data",
+      "description": "Electronics and circuit board engineering",
+      "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1080&q=80",
+      "imageHint": "electronics circuit board"
+    },
+    {
+      "id": "course-leadership",
+      "description": "Business management and corporate training",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1080&q=80",
+      "imageHint": "business management"
+    },
+    {
+      "id": "student-priya",
+      "description": "Young woman natural portrait",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "imageHint": "young woman casual portrait"
+    },
+    {
+      "id": "student-rohit",
+      "description": "Young man natural portrait",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "imageHint": "young man casual portrait"
+    },
+    {
+      "id": "student-ananya",
+      "description": "Young woman natural portrait",
+      "imageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "imageHint": "young woman natural portrait"
+    }
+  ]
+}

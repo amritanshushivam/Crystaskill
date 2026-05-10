@@ -1,0 +1,12 @@
+backend/
+deploy/
+ecosystem.config.js
+install.bat
+start.bat
+stop.bat
+*.bat
+logs/
+.env
+.env.production
+.env.local
+docs/
